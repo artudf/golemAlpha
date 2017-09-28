@@ -95,55 +95,67 @@ body{background:#006600;margin:0;}
 /* pupils */
 
 #a-1:hover ~ .eye > .pupil{
-    -webkit-transform: rotate(60deg) translate(-30px);
+  background: #808000;
+    -webkit-transform:  translate(-25px, -15px);
 }
 
 #a-2:hover ~ .eye > .pupil{
-    -webkit-transform: rotate(80deg) translate(-30px);
+  background: #808000; 
+    -webkit-transform:  translate(-10px, -15px);
 }
 
 #a-3:hover ~ .eye > .pupil{
-    -webkit-transform: rotate(90deg) translate(-30px);
+  background: #808000;
+    -webkit-transform: translate(0px, -15px);
 }
 
 #a-4:hover ~ .eye > .pupil{
-    -webkit-transform: rotate(100deg) translate(-30px);
+  background: #808000;
+    -webkit-transform: translate(10px,-15px);
 }
 
 #a-5:hover ~ .eye > .pupil{
-    -webkit-transform: rotate(120deg) translate(-30px);
+    -webkit-transform: translate(25px, -15px);
 }
 
 #b-1:hover ~ .eye > .pupil{
-    -webkit-transform: rotate(50deg) translate(-25px);
+    background: #608000;
+    -webkit-transform: translate(-25px,-10px) ;
 }
 
 #b-2:hover ~ .eye > .pupil{
-    -webkit-transform: rotate(70deg) translate(-25px);
+  background: #608000;
+    -webkit-transform: translate(-10px,-10px);
 }
 
 #b-3:hover ~ .eye > .pupil{
-    -webkit-transform: rotate(100deg) translate(-25px);
+  background: #608000;
+    -webkit-transform: translate(0px, -10px);
 }
 
 #b-3:hover ~ .eye:nth-of-type(2n+1) > .pupil {
-    -webkit-transform: rotate(80deg) translate(-25px);
+  background: #608000;
+    -webkit-transform: translate(-5px,-10px);
 }
 
 #b-4:hover ~ .eye > .pupil{
-    -webkit-transform: rotate(110deg) translate(-25px);
+  background: #608000;
+    -webkit-transform:  translate(10px,-10px);
 }
 
 #b-5:hover ~ .eye > .pupil{
-    -webkit-transform: rotate(130deg) translate(-25px);
+  background: #608000;
+    -webkit-transform: translate(25px,-10px);
 }
 
 #c-1:hover ~ .eye > .pupil{
-    -webkit-transform: rotate(0deg) translate(-25px);
+  background: #408000;
+    -webkit-transform: translate(-25px);
 }
 
 #c-2:hover ~ .eye > .pupil{
-    -webkit-transform: rotate(0deg) translate(-10px);
+  background: #408000;
+    -webkit-transform:  translate(-10px);
 }
 
 #c-3:hover ~ .eye > .pupil{
@@ -152,69 +164,86 @@ body{background:#006600;margin:0;}
 }
 
 #c-3:hover ~ .eye:nth-of-type(2n+1) > .pupil {
+ background: red;
     -webkit-transform: rotate(0deg) translate(-25px);
 }
 
 #c-4:hover ~ .eye > .pupil{
-    -webkit-transform: rotate(180deg) translate(-10px);
+  background: #408000;
+    -webkit-transform:  translate(10px);
 }
 
 #c-5:hover ~ .eye > .pupil{
-    -webkit-transform: rotate(180deg) translate(-25px);
+  background: #408000;
+    -webkit-transform:  translate(25px);
 }
 
 #d-1:hover ~ .eye > .pupil{
-    -webkit-transform: rotate(-40deg) translate(-25px);
+  background: #208000;
+    -webkit-transform: translate(-25px,10px);
 }
 
 #d-2:hover ~ .eye > .pupil{
-    -webkit-transform: rotate(-60deg) translate(-25px);
+  background: #208000;
+    -webkit-transform: translate(-10px,10px);
 }
 
 #d-3:hover ~ .eye > .pupil{
-    -webkit-transform: rotate(-120deg) translate(-25px);
+  background: #208000;
+    -webkit-transform: translate(0px,10px);
 }
 
 #d-3:hover ~ .eye:nth-of-type(2n+1) > .pupil {
-    -webkit-transform: rotate(-60deg) translate(-25px);
+  background: #208000;
+    -webkit-transform:  translate(0px,10px);
 }
 
 #d-4:hover ~ .eye > .pupil{
-    -webkit-transform: rotate(-130deg) translate(-25px);
+  background: #208000;
+    -webkit-transform:   translate(25px,10px);
 }
 
 #d-4:hover ~ .eye:nth-of-type(2n+1) > .pupil{
-    -webkit-transform: rotate(-100deg) translate(-25px);
+  background: #208000;
+    -webkit-transform: translate(-10px, 10px);
 }
 
 #d-5:hover ~ .eye > .pupil{
-    -webkit-transform: rotate(-140deg) translate(-25px);
+  background: #208000;
+    -webkit-transform:translate(-25px,10px);
 }
 
 #e-1:hover ~ .eye > .pupil{
-    -webkit-transform: rotate(-40deg) translate(-30px);
+  background: #008000;
+    -webkit-transform:  translate(-25px,25px);
 }
 
 #e-2:hover ~ .eye > .pupil{
-    -webkit-transform: rotate(-60deg) translate(-30px);
+  background: #008000;
+    -webkit-transform:  translate(-10px,25px);
 }
 
 #e-3:hover ~ .eye > .pupil{
-    -webkit-transform: rotate(-120deg) translate(-30px);
+  background: #008000;
+    -webkit-transform: translate(-0px,25px);
 }
 
 #e-3:hover ~ .eye:nth-of-type(2n+1) > .pupil {
-    -webkit-transform: rotate(-60deg) translate(-30px);
+  background: #008000;
+    -webkit-transform: translate(-0px,25px);
 }
 
 #e-4:hover ~ .eye > .pupil{
-    -webkit-transform: rotate(-130deg) translate(-30px);
+  background: #008000;
+    -webkit-transform: translate(10px,25px);
 }
 
 #e-4:hover ~ .eye:nth-of-type(2n+1) > .pupil{
-    -webkit-transform: rotate(-100deg) translate(-30px);
+  background: #008000;
+    -webkit-transform: translate(10px,25px);
 }
 
 #e-5:hover ~ .eye > .pupil{
-    -webkit-transform: rotate(-140deg) translate(-30px);
+  background: #008000;
+    -webkit-transform: translate(25px,25px);
 }

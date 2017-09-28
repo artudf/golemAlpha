@@ -1,3 +1,4 @@
+//To change the color of the eyes
 function eyesColor(val)
 {
 	document.getElementById("leftEye").style.backgroundColor = val;
@@ -8,6 +9,7 @@ function eyesColor(val)
     }, 5000)		
 }
 
+//Init the recognition interface
 function startRecognition() {
     recognition = new webkitSpeechRecognition();
     recognition.continuous = false;

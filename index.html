@@ -3,6 +3,7 @@
   <title>Barry</title>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="js/index.js"></script>
   <script type="text/javascript">
     var accessToken = "4ccbf515e67145af8a2a132ad7ec8509",
       baseUrl = "https://api.api.ai/v1/",
@@ -121,13 +122,9 @@
       }
       $("#spokenResponse").addClass("is-active").find(".spoken-response__text").html(val);
     }
-	function eyesColor(val)
-	{
-		document.getElementById("leftEye").style.backgroundColor = val;
-		document.getElementById("rightEye").style.backgroundColor = val;
-		
-	}
+
   </script>
+
   <style type="text/css">
     html {
       box-sizing: border-box;

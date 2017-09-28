@@ -31,13 +31,13 @@ body{background:#000;margin:0;}
 
 .pupil{
   position:relative;
-  width:25px;
-  height:25px;
+  width:35px;
+  height:10px;
   background:#000;
-  border-radius:12px;
+  border-radius:2px;
   left:50%;
   top:50%;
-  margin:-12px 0 0 -12px;
+  margin:-12px 0 0 -18px;
   -webkit-transition: all .5s ease;
 }
 

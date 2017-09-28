@@ -48,7 +48,7 @@ body{background:#000;margin:0;}
     left:20%;
     top: 25%;  
     pointer-events: none;
-    background: #000;
+    background: #006600;
     -webkit-animation-name:             blink; 
     -webkit-animation-duration:         4.5s; 
     -webkit-animation-iteration-count:  infinite;
